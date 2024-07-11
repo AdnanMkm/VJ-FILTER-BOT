@@ -51,8 +51,8 @@ FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-100
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Kunjumon:OIzyqnEsnodg3PDs@kunjupanic.dnd9mag.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "kunjumon")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Nmovies:nmovies@123@nmovies.hbszihm.mongodb.net/?retryWrites=true&w=majority&appName=Nmovies"")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Nmovies")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'techvjcollection')
 
 # Premium And Referal Settings
